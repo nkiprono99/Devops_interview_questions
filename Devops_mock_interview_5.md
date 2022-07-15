@@ -8,9 +8,20 @@ Git
 Unix & Shell scripting 
 -----------
 5. what is command for checking the running process? how to get PID of process?
-6. Command to get whether certain port is listing or not?
-7. How to indentify the number of params that has been sent to shell script?
-8. command to delete empty line in a file?
+     ps.
+     ps -f
+     filter using PID
+     top
+7. Command to get whether certain port is listing or not?
+     netstat -tunlp
+      
+9. How to indentify the number of params that has been sent to shell script?
+sh test.sh
+ sh test 3 4 5 7
+      
+11. command to delete empty line in a file?
+       sed '/ ^$/d' test.sh
+       
 
 Helm
 ---
