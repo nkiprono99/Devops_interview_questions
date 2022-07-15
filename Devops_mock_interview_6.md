@@ -55,7 +55,10 @@ Scripting
 ----
 33. You need to identify unused fields In values.yaml how would you approach this? 
 34. What is exit status? 
-35. Given machine, how will you identify which machine it is? 
+    echo $ =0 (seccesfull)
+      
+36. Given machine, how will you identify which machine it is? 
+   uname -a
 
 Ansible 
 ----
