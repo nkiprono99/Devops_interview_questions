@@ -1,9 +1,17 @@
 GIT
 ---------------
 1. What is git reset ? Types of reset ?
-2. How to delete local branch  and remote branch in git ? 
-3. Difference between git diff and git status ?
-4. What are hooks in git? 
+           
+3. How to delete local branch  and remote branch in git ? 
+
+     git brach - a ( to show all branches)
+     git branch -D (name of the branch)
+5. Difference between git diff and git status ?
+   git diff -compare
+   git status - status e.g staging, commit
+7. What are hooks in git? 
+ special commits that will be excuted after certain event
+ 
 
 MAVEN
 --------
