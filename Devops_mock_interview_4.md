@@ -23,10 +23,32 @@ JENKINS
 UNIX & SHELL SCRIPTING
 -----------
 13. Command to find empty files in a given directory?
-14. Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?
-15. How to schedule a shell script in unix machines?
-16. Command to get load average ?
-17. Need to identify ip addresses in log file and count of ip addresses in log file?
+ 
+          -excute ssh -keygen
+     -answer the promts 
+      - cd ~/ .ssh/
+      -ls (id rsa, id rsa.pub)
+         -ssh-copy-id username then ip
+     other files present 1) id rsa, id rsa.pub, kwnown-lost, Authorize -key
+19. Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?
+               -excute ssh -keygen
+     -answer the promts 
+      - cd ~/ .ssh/
+      -ls (id rsa, id rsa.pub)
+         -ssh-copy-id username then ip
+     other files present 1) id rsa, id rsa.pub, kwnown-lost, Authorize -key
+21. How to schedule a shell script in unix machines?
+     using crontab
+                crontab -e (google crontab guru) enter the digits copy and enter in crontab -e editor
+                choose one of the editors 
+                
+        
+23. Command to get load average ?
+         top    
+25. Need to identify ip addresses in log file and count of ip addresses in log file?
+ grep -E
+
+       
 
 ANSIBLE
 ------------
